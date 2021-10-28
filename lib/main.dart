@@ -23,9 +23,10 @@ class _mapsState extends State<maps> {
         home: Scaffold(
             appBar: AppBar(
               title: Text("MAPS"),
-              centerTitle:true,
+              centerTitle: true,
             ),
             body: GoogleMap(
+              key: Key("AIzaSyB21JrLdmBmtKA3aJd6uuqDpOz776GXjf8"),
               initialCameraPosition:
                   CameraPosition(target: LatLng(40.1234, 36.15), zoom: 15.0),
               trafficEnabled: true,
